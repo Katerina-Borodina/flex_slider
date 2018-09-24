@@ -1,4 +1,4 @@
 # flex_slider
 flex_slider
 
-https://github.com/Katerina-Borodina/flex_slider/src/
+https://katerina-borodina.github.io/flex_slider/src/
