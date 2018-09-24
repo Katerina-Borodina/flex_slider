@@ -1,0 +1,46 @@
+body {
+  font-family: 'Bad Script', cursive;
+  color: #ffffff; }
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0; }
+
+.item {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aeaeae;
+  flex-basis: 25%;
+  font-size: 40px; }
+  .item:hover {
+    flex-basis: 40%;
+    transition: .8s; }
+  .item span {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #000; }
+
+.item-1 {
+  background: url("../img/img_1.jpg") no-repeat center center; }
+
+.item-2 {
+  background: url("../img/img_2.jpg") no-repeat center center; }
+
+.item-3 {
+  background: url("../img/img_3.jpg") no-repeat center center; }
+
+.item-4 {
+  background: url("../img/img_4.jpg") no-repeat center center; }
+
+@media (max-width: 640px) {
+  .slider {
+    height: 100vh;
+    flex-flow: column; }
+  .item {
+    width: 100%;
+    height: 25%; }
+    .item:hover {
+      flex-grow: 300; } }
